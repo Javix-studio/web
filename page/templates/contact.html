@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../static/css/contact.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="topnav">
+        <a href="/Home">Home</a>
+        <a href="/About">About</a>
+        <a href="/Contact">Contact</a>
+        <a href="/Links">Links</a>
+    </nav>
+
+    <h1>
+        <center><b>Contact</b></center>
+    </h1>
+    <!-- Form Container -->
+    <section class="container">
+        <center>
+            <form action="https://formsubmit.co/347fd2aff6e6a864bd29fc3c49d25fe6" method="POST">
+                <!-- Hidden field to format email as a table -->
+                <input type="hidden" name="_template" value="table">
+                
+                <!-- Hidden field to redirect to thank you page -->
+                <input type="hidden" name="_next" value="https://javix-studio.github.io/thanks/">
+                
+                <!-- Name Input Field -->
+                <label for="name"><b>Name</b></label>
+                <input type="text" name="name" required placeholder="Your Name" aria-label="Your Name">
+                
+                <!-- Email Input Field -->
+                <label for="name"><b>Email</b></label>
+                <input type="email" name="email" required placeholder="Your Email" aria-label="Your Email">
+                
+                <!-- Message Input Field -->
+                 <label for="message"><b>Message</b></label>
+                <textarea name="message" required placeholder="Your Message" rows="5" aria-label="Your Message"></textarea>
+                
+                <!-- Submit Button -->
+                <button type="submit">Submit</button>
+            </form>
+        </center>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="../static/js/contact.js"></script>
+    
+
+</body>
+</html>
+ 
